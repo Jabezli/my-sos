@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/*Elecment Selectors*/
+/*Element Selectors*/
 
 body {
     background-color: #d9dcd6;
@@ -44,15 +44,18 @@ header ul li {
     margin-left: 25px;
 }
 
+/* "a" here is to remove blue color font for links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* "p" here is for both "section" and "aside" */
 p {
     font-size: 16px;
 }
 
+/* element selectors below with "section" are for the three main secitons located at the left side of the webpage*/
 section {
     width: 75%;
     display: inline-block;
@@ -82,7 +85,7 @@ section h2{
 }
 
 
-
+/* element below with "aside" are for the bar setcion on the right side of the webpage*/
 aside {
     margin-right: 20px;
     padding: 20px;
